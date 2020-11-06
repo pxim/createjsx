@@ -1,0 +1,18 @@
+# 指定发布 npm 的时候需要忽略的文件和文件夹
+# npm 默认不会把 node_modules 发上去
+# config/ # webpack配置
+# config/*
+# example/ # 开发时预览代码
+# example/*
+# src/ # 组件源代码目录
+# src/*
+# lib/
+# lib/*
+# test/
+# test/*
+# .idea/
+# .idea/*
+# .babelrc # babel 配置
+
+node_modules
+node_modules/*
