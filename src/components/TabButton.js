@@ -2,7 +2,7 @@ import {EventDispatcher} from "devlibx";
 
 
 /*
- * @Description:
+ * @Description: Tab按钮组件
  * @Author: 彭祥 (Email:px.i@foxmail.com QQ:245803627)
  * @Date: 2020-10-20 09:17
  * @LastEditors: PengXiang

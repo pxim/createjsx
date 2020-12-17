@@ -4,7 +4,7 @@ import {getHMSTime} from "devlibx";
 
 /*
  * @Description: 操作记录面板，实训记录面板（An Canvas Type）- 目前用于ZDDLH5模板-ZDDLAn
- * @Author: 彭祥 (Email:245803627@qq.com)
+ * @Author: 彭祥 (Email:px.i@foxmail.com QQ:245803627)
  * @Date: 2020/3/16 10:23
  * @LastEditors: pengxiang
  * @LastEditTime: 2020/3/16 10:23

@@ -1,17 +1,15 @@
+// import {getBrowser} from 'devlibx';
+import {convertTime} from 'devlibx';
+
 /*
  * @Description: 自定义视频播放器控件的组件（基于Canvas的）；
- * @Author: 彭祥 (Email:245803627@qq.com)
+ * @Author: 彭祥 (Email:px.i@foxmail.com QQ:245803627)
  * @Date: 2018/9/25 14:15
  * @LastEditors: pengxiang
  * @LastEditTime: 2019/2/28 14:15
+ *
+ * 此组件使用方法 init(el, false, _this);
  */
-//************************************************************************************************//
-// 此组件使用方法
-// init(el, false, _this);
-//************************************************************************************************//
-import {getBrowser} from 'devlibx';
-import {convertTime} from 'devlibx';
-
 export function CustomVideoPlayer() {
     function CustomVideoPlayer() {
         var _this = _super.call(this) || this;
@@ -90,14 +88,14 @@ export function CustomVideoPlayer() {
         if(that.replayBtn){ that.replayBtn.addEventListener('mousedown', onReplayBtnClick); }
         if(that.muteBtn){ that.muteBtn.addEventListener('mousedown', onMuteBtnClick); }
 
-        var browserInfo = getBrowser();
-        var BrowserType = browserInfo.browser;
+        // var browserInfo = getBrowser();
+        // var BrowserType = browserInfo.browser;
         //注：Chrome下视频的路径必须是https的绝对路径（比如 http://www.w3school.com.cn/example/html5/mov_bbb.mp4），才能实现拖动进度条刷新视频时间这个功能，本公司并没有这个资源，因此暂时屏蔽Chrome下的此功能；
-        if(BrowserType !== "Chrome"){
+        // if(BrowserType !== "Chrome"){
             that.progressBar.barBtn.addEventListener('mousedown', onProgressBtnClick);
             that.progressBar.pointBtn.addEventListener("mousedown", onPointBtnDown);
             that.progressBar.pointBtn.addEventListener("pressup", onPointBtnUp);
-        }
+        // }
         // alert("browser:"+browserInfo.browser+" version:"+browserInfo.version);
     }
 

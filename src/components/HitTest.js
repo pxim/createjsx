@@ -5,11 +5,14 @@
  * @LastEditors: PengXiang
  * @LastEditTime: 2020-10-27 16:54
  */
-// const createjs = window.createjs || {};
-// const exportRoot = window.exportRoot || {};
-// const stage = window.stage || {};
 
-export const HitTestObject = function(obj1,obj2) {
+/**
+ * 元素和元素之间的碰撞检测
+ * @param obj1
+ * @param obj2
+ * @returns {boolean|*}
+ */
+export const hitTestObject = function(obj1,obj2) {
     if(!obj1 || !obj2){return false;}
     //var rect = new createjs.Rectangle(0, 0, 100, 100);
     var rect1 = obj1.getBounds();
@@ -21,7 +24,7 @@ export const HitTestObject = function(obj1,obj2) {
     return rect1.intersects(rect2);
 };
 
-export const CollisionTest = function(ele1, ele2) {
+export const collisionTest = function(ele1, ele2) {
     var w1 = ele1.getBounds().width;
     var h1 = ele1.getBounds().height;
     var w2 = ele2.getBounds().width;

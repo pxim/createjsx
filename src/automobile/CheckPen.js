@@ -1,10 +1,10 @@
 import {MsgEvent} from "../components/MsgEvent";
-import {HitTestObject} from "../components/HitTest";
+import {hitTestObject} from "../components/HitTest";
 import CheckPoint from "./CheckPoint";
 
 /* An Canvas Type
  * @Description: 万用表（蓄电池）- 检测表笔
- * @Author: 彭祥 (Email:245803627@qq.com)
+ * @Author: 彭祥 (Email:px.i@foxmail.com QQ:245803627)
  * @Date: 2020/3/10 16:49
  * @LastEditors: pengxiang
  * @LastEditTime: 2020/3/10 16:49
@@ -62,7 +62,7 @@ export default class CheckPen {
         const CPointAry = this.checkPointAry;
         // const CPin = target.pin;//检测笔的笔尖
         const nowCheckPoint = CPointAry.find((item)=>{
-            return HitTestObject(target, item) === true;
+            return hitTestObject(target, item) === true;
         });
 
         if(nowCheckPoint){

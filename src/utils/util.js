@@ -22,17 +22,3 @@ export const onCanvasRendered = function(value, fun) {
         }
     }, 200);
 };
-
-
-/**
- * 添加外部script标签
- * 参考 https://www.jb51.net/article/40623.htm
- * @param src
- */
-export const addExtScript = function (src) {
-    var head= document.getElementsByTagName('head')[0];
-    var script= document.createElement('script');
-    script.type= 'text/javascript';
-    script.src= src; //'call.js'
-    head.appendChild(script);
-}

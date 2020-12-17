@@ -1,6 +1,6 @@
 /*
  * @Description: 滚动条组件（竖向滚动条完成；横向未完成，可参考竖向滚动条的写法；）（An Canvas Type）
- * @Author: 彭祥 (Email:245803627@qq.com)
+ * @Author: 彭祥 (Email:px.i@foxmail.com QQ:245803627)
  * @Date: 2018/2/28 17:54
  * @LastEditors: pengxiang
  * @LastEditTime: 2019/3/1 20:18
@@ -14,6 +14,7 @@ export function ScrollBar() {
     var that, sPage;
     var sPageBound;
     var sBarBound;
+    var trackBound;
     var nowPageY = 0;
     var timer;
 
@@ -35,7 +36,8 @@ export function ScrollBar() {
 
         sPage.setTransform(0,0);
         sPageBound = sPage.getTransformedBounds();
-        sBarBound = that.track.getTransformedBounds();
+        sBarBound = that.getTransformedBounds();
+        trackBound = that.track.getTransformedBounds();
         initThumbPosition();
 
         that.arrowUp.addEventListener('mousedown', onArrowUpMouseDown);
@@ -133,12 +135,23 @@ export function ScrollBar() {
         var limitMinY = 0;
         var limitMaxY = that.track.getTransformedBounds().height - that.thumb.getTransformedBounds().height;
 
-        if(tempY >= limitMinY && tempY <= limitMaxY) {
-            // console.log(tempY,Math.floor(tempY));
+        // if(tempY >= limitMinY && tempY <= limitMaxY) {
+        //     // console.log(tempY,Math.floor(tempY));
+        //     target.y = tempY;
+        //     that.thumbIcon.y = target.y + (that.thumb.getTransformedBounds().height - that.thumbIcon.getTransformedBounds().height)/2;
+        //     updatePagePosition();
+        // }
+
+        if(tempY <= limitMinY) {
+            target.y = limitMinY;
+        }else if(tempY >= limitMaxY) {
+            target.y = limitMaxY;
+        }else{
             target.y = tempY;
-            that.thumbIcon.y = target.y + (that.thumb.getTransformedBounds().height - that.thumbIcon.getTransformedBounds().height)/2;
-            updatePagePosition();
         }
+
+        that.thumbIcon.y = target.y + (that.thumb.getTransformedBounds().height - that.thumbIcon.getTransformedBounds().height)/2;
+        updatePagePosition();
     }
     function onThumbPressUp(event) {
         that.thumb.removeEventListener('pressmove', onThumbPressMove);

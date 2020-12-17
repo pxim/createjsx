@@ -1,6 +1,6 @@
 /*
- * @Description: 基础关闭面板工具类 (An Canvas Type)
- * @Author: 彭祥 (Email:245803627@qq.com)
+ * @Description: 基础关闭面板工具类 (An Canvas)
+ * @Author: 彭祥 (Email:px.i@foxmail.com QQ:245803627)
  * @Date: 2020/1/15 15:10
  * @LastEditors: pengxiang
  * @LastEditTime: 2020/1/15 15:10

@@ -1,6 +1,6 @@
-/* An Canvas Type
- * @Description: 万用表（蓄电池）- 检测点
- * @Author: 彭祥 (Email:245803627@qq.com)
+/*
+ * @Description: 万用表（蓄电池）- 检测点 (An Canvas)
+ * @Author: 彭祥 (Email:px.i@foxmail.com QQ:245803627)
  * @Date: 2020/3/10 16:47
  * @LastEditors: pengxiang
  * @LastEditTime: 2020/3/10 16:47

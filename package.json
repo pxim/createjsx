@@ -1,6 +1,6 @@
 {
   "name": "createjsx",
-  "version": "0.0.7",
+  "version": "0.0.18",
   "description": "一个createjs工具库，里面封装了一些组件",
   "main": "index.js",
   "scripts": {
@@ -14,8 +14,8 @@
     "npm:unpublish": "npm unpublish react-test-libsssss --force"
   },
   "keywords": [
-    "adobe animate",
-    "createjs"
+    "createjs",
+    "adobe animate"
   ],
   "author": "PengXiang",
   "license": "ISC",
@@ -52,13 +52,6 @@
     "devlibx": "0.0.4"
   },
   "peerDependencies": {
-    "antd": "^4.4.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "glamor": "^2.20.40",
-    "jquery": "^3.5.1",
-    "pubsub-js": "^1.8.0",
-    "react-device-detect": "^1.13.1"
   },
   "files": [
     "/build",

@@ -1,6 +1,6 @@
 /*
  * @Description: 滚动条组件（竖向滚动条完成；横向未完成，可参考竖向滚动条的写法；）
- * @Author: 彭祥 (Email:245803627@qq.com)
+ * @Author: 彭祥 (Email:px.i@foxmail.com QQ:245803627)
  * @Date: 2018/2/28 17:54
  * @LastEditors: pengxiang
  * @LastEditTime: 2019/3/1 20:18

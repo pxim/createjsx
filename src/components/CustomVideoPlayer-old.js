@@ -1,19 +1,15 @@
-import  {getBrowser} from '../../common/utils/util.core.js';
+import  {getBrowser} from 'devlibx';
 
-//************************************************************************************************//
-
-// 此组件使用方法
-// CreateCVideoPlayer(el, false, _this);
-
-//************************************************************************************************//
 /*
  * @Description: 自定义视频播放器控件的组件（基于Canvas的）；
- * @Author: 彭祥 (Email:245803627@qq.com)
+ * @Author: 彭祥 (Email:px.i@foxmail.com QQ:245803627)
  * @Date: 2018/9/25 14:15
  * @LastEditors: pengxiang
  * @LastEditTime: 2019/2/28 14:15
+ *
+ * 此组件使用方法 CreateCVideoPlayer(el, false, _this);
  */
-export default function CustomVideoPlayerOld() {
+export function CustomVideoPlayer() {
     function CustomVideoPlayer() {
     }
 
@@ -93,6 +89,7 @@ export default function CustomVideoPlayerOld() {
     var progressTime;
     function onProgressInterval() {
         // var _video = document.getElementById("videoMC");
+        if(!defaultVideo.duration){return false;}
         var per = defaultVideo.currentTime/defaultVideo.duration;
         if(per){
             updateProgressBarWidth(per);
@@ -127,16 +124,16 @@ export default function CustomVideoPlayerOld() {
         }
         that.controlBar.playAndStopBtn.addEventListener('click', onPlayAndStopBtnClick);
         // that.controlBar.progressBarWidget.progressBtn.addEventListener('click', onProgressBtnClick);
-        if(that.controlBar.replayBtn){that.controlBar.replayBtn.addEventListener('click', onReplayBtnClick);}
+        that.controlBar.replayBtn.addEventListener('click', onReplayBtnClick);
 
         var browserInfo = getBrowser();
         var BrowserType = browserInfo.browser;
         //注：Chrome下视频的路径必须是https的绝对路径（比如 http://www.w3school.com.cn/example/html5/mov_bbb.mp4），才能实现拖动进度条刷新视频时间这个功能，本公司并没有这个资源，因此暂时屏蔽Chrome下的此功能；
-        if(BrowserType !== "Chrome"){
+        // if(BrowserType !== "Chrome"){
             that.controlBar.progressBarWidget.progressBtn.addEventListener('click', onProgressBtnClick);
             that.controlBar.progressBarWidget.pointBtn.addEventListener("mousedown", onPointBtnDown);
             that.controlBar.progressBarWidget.pointBtn.addEventListener("pressup", onPointBtnUp);
-        }
+        // }
         // alert("browser:"+browserInfo.browser+" version:"+browserInfo.version);
     }
 
@@ -196,6 +193,7 @@ export default function CustomVideoPlayerOld() {
         }
         // console.log(point.x,x1,per);
         //更新视频播放进度
+        if(!defaultVideo.duration){return false;}
         var _ct = defaultVideo.duration * per;
         defaultVideo.currentTime = _ct;
         //更新时间

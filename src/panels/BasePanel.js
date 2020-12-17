@@ -1,6 +1,6 @@
 /*
- * @Description: 基数面板类 (An Canvas Type)
- * @Author: 彭祥 (Email:245803627@qq.com)
+ * @Description: 基数面板类 (An Canvas)
+ * @Author: 彭祥 (Email:px.i@foxmail.com QQ:245803627)
  * @Date: 2020/3/9 14:44
  * @LastEditors: pengxiang
  * @LastEditTime: 2020/3/9 14:44
