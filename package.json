@@ -1,6 +1,6 @@
 {
   "name": "createjsx",
-  "version": "0.0.18",
+  "version": "0.0.19",
   "description": "一个createjs工具库，里面封装了一些组件",
   "main": "index.js",
   "scripts": {
@@ -21,12 +21,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pxim/devkit.git"
+    "url": "git+https://github.com/pxim/createjsx.git"
   },
   "bugs": {
-    "url": "https://github.com/pxim/devkit/issues"
+    "url": "https://github.com/pxim/createjsx/issues"
   },
-  "homepage": "https://github.com/pxim/devkit",
+  "homepage": "https://github.com/pxim/createjsx",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",

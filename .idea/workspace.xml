@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28600b61-c2cb-4ed1-b91c-4fd2c84522e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automobile/CheckPen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/automobile/CheckPen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automobile/CheckPenLine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/automobile/CheckPenLine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automobile/CheckPoint.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/automobile/CheckPoint.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/automobile/Multimeter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/automobile/Multimeter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ButtonHelper.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonHelper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomVideoPlayer-old.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomVideoPlayer-old.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CustomVideoPlayer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CustomVideoPlayer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HitTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HitTest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ScrollBar-old.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollBar-old.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ScrollBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TabButton.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TabButton.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/panels/BaseClosePane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/panels/BaseClosePane.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/panels/BasePanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/panels/BasePanel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/panels/ORecordPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/panels/ORecordPane.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/panels/OScaleMapPane.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/panels/OScaleMapPane.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/util.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../devlibx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ansvgx" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -118,6 +98,7 @@
       <workItem from="1608167113894" duration="4068000" />
       <workItem from="1608172449201" duration="143000" />
       <workItem from="1608172769278" duration="5176000" />
+      <workItem from="1608196219729" duration="47000" />
     </task>
     <servers />
   </component>
@@ -125,26 +106,26 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608177058062">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608196265062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608177058062" />
-    <state width="1899" height="244" key="GridCell.Tab.0.bottom" timestamp="1608187255348">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608196265062" />
+    <state width="1899" height="244" key="GridCell.Tab.0.bottom" timestamp="1608196266275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608187255348" />
-    <state width="1899" height="244" key="GridCell.Tab.0.center" timestamp="1608187255348">
+    <state width="1899" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1608196266275" />
+    <state width="1899" height="244" key="GridCell.Tab.0.center" timestamp="1608196266275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608187255348" />
-    <state width="1899" height="244" key="GridCell.Tab.0.left" timestamp="1608187255347">
+    <state width="1899" height="244" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1608196266275" />
+    <state width="1899" height="244" key="GridCell.Tab.0.left" timestamp="1608196266275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608187255347" />
-    <state width="1899" height="244" key="GridCell.Tab.0.right" timestamp="1608187255348">
+    <state width="1899" height="244" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1608196266275" />
+    <state width="1899" height="244" key="GridCell.Tab.0.right" timestamp="1608196266275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608187255348" />
+    <state width="1899" height="244" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608196266275" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608172415315">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
